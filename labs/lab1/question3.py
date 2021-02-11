@@ -1,6 +1,6 @@
 import random
 
-total_flips = 1000000
+total_flips = 100000
 heads = 0
 count = 0
 coin = 0
