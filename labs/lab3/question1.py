@@ -2,7 +2,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 from scipy import stats
 
-def main():
+def Main():
     # defining the array using numpy
     x = np.arange(-1, 12, 0.01)
 
@@ -67,4 +67,4 @@ def distribution(x, a, b):
 
     return result
 
-main()
+Main()

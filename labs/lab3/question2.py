@@ -1,7 +1,6 @@
 import numpy as np
 
-
-def main():
+def Main():
     # declaring the radius value
     radius = 10
     # to keep track of the number of times the points are on the same semicircle
@@ -32,7 +31,7 @@ def main():
         # sorting the array to be in ascending order
         threePoints.sort()
 
-        # checking if the 3 points from thew
+        # checking if the 3 points from the
         # variable threePoints are on the same semicircle
         # these conditions are checking if the line that split
         # the semicircle are diagonal, vertical, or horizontal
@@ -44,10 +43,10 @@ def main():
                     if circumference - (threePoints[2] - threePoints[1]) <= semi_circle:
                         count = count + 1
                 elif circumference - (threePoints[1] - threePoints[0]) <= semi_circle:
-                    count = count + 1
+                        count = count + 1
 
     # display the result
     print(count / experiment)
 
 
-main()
+Main()
